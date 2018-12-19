@@ -2,7 +2,7 @@
 
 Currently supports syntax highlighting of .nf scripts.
 
-Borrows a lot of Groovy highlighting code from vim-scripts/groovy.vim.
+Extends (presumed-available) groovy syntax highlighting.
 
 ![screenshot](images/screenshot.png)
 
