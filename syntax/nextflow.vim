@@ -2,8 +2,6 @@ if exists("b:current_syntax")
   finish
 endif
 
-syntax on
-
 setlocal expandtab
 setlocal shiftwidth=4
 setlocal softtabstop=4
