@@ -4,11 +4,28 @@ Currently supports syntax highlighting of .nf scripts.
 
 Borrows a lot of Groovy highlighting code from vim-scripts/groovy.vim.
 
+![screenshot](images/screenshot.png)
+
 ## Installation
+
+### vim-plug
+
+    Plug 'LukeGoodsell/nextflow-vim'
 
 ### Vundle
 
     Plugin 'LukeGoodsell/nextflow-vim'
+
+### NeoBundle
+
+    NeoBundle 'LukeGoodsell/nextflow-vim'
+
+### Manual
+
+    git clone https://github.com/LukeGoodsell/nextflow-vim ~/nextflow-vim;
+    mkdir ~/.vim/ftdetect; mkdir ~/.vim/ftplugin;
+    cp ~/nextflow-vim/ftdetect/nextflow.vim ~/.vim/ftdetect;
+    cp ~/nextflow-vim/syntax/nextflow.vim ~/.vim/ftplugin;
 
 ## Goals
 
