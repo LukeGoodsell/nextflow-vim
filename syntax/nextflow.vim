@@ -2,11 +2,6 @@ if exists("b:current_syntax")
   finish
 endif
 
-setlocal expandtab
-setlocal shiftwidth=4
-setlocal softtabstop=4
-setlocal colorcolumn=80
-
 source $VIMRUNTIME/syntax/groovy.vim
 
 syn region  nextflowBlockString          start=+'''+ keepend end=+'''+ contains=groovySpecialChar,groovySpecialError,@Spell,nextflowELExpr,@shell
@@ -43,4 +38,3 @@ hi def link nextflowSpecial           Special
 hi def link nextflowBlock             Function
 
 hi def link nextflowBlockString       String
-

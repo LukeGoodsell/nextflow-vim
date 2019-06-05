@@ -22,10 +22,9 @@ Extends (presumed-available) groovy syntax highlighting.
 
 ### Manual
 
-    git clone https://github.com/LukeGoodsell/nextflow-vim ~/nextflow-vim;
-    mkdir ~/.vim/ftdetect; mkdir ~/.vim/ftplugin;
-    cp ~/nextflow-vim/ftdetect/nextflow.vim ~/.vim/ftdetect;
-    cp ~/nextflow-vim/syntax/nextflow.vim ~/.vim/ftplugin;
+    git clone https://github.com/LukeGoodsell/nextflow-vim ~/nextflow-vim
+    mkdir -p ~/.vim/{ftdetect,ftplugin,syntax}
+    cp -R ~/nextflow/{ftdetect,ftplugin,syntax} ~/.vim
 
 ## Goals
 
